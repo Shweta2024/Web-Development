@@ -1,6 +1,8 @@
 **BROWSER** :- In order to access INTERNET, we need a **Browser**.It can be Google chrome,firefox etc.These are the software that allows us to look for the IP Address of the website
 that we want to access and be able to recieve data that can be rendered in the beautiful website.
 
+#### A browser interprets our HTML, CSS and JAVASCRIPT files into websites.
+
 The files that we recieve usually consists of three types of files .i.e **HTML** , **CSS** and **JAVASCRIPT** files.
 
 HTML :- HTML files are responsible for the **STRUCTURE** of the website.
