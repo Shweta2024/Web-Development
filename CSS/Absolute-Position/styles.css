@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.first {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.second {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+
+.third {
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
