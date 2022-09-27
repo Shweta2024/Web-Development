@@ -1,0 +1,20 @@
+h1 {
+    background-color: blue;
+}
+
+p {
+    background-color: red;
+}
+
+div {
+    height: 30px;
+    background-color: yellow;
+}
+
+ol {
+    background-color: orange;
+}
+
+form {
+    background-color: pink;
+}
