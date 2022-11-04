@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+
+.list {
+  background-color: yellow;
+}
+
+.visible {
+  visibility: hidden;
+}
+
+.size {
+  font-size: 100px;
+}
+
+.color {
+  background-color: aquamarine;
+}
