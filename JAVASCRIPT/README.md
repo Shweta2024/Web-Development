@@ -92,4 +92,22 @@ a and b are Equal
 
 - ! NOT
 
+## Array operations
 
+```js
+
+//creates an empty array
+var arr = []; 
+
+//push 5 at the end of the array
+arr.push(5);
+
+//pops out a value from the end of the array
+arr.pop();
+
+//checks if  8 is present in arr or not
+//if present it returns true
+//else it gives false
+arr.include(8);
+
+```
