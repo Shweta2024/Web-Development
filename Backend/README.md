@@ -37,3 +37,10 @@ npm install express
 
 ```
 
+### Installing nodemon
+
+```
+
+npm install -g nodemon
+
+```
