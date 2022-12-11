@@ -137,3 +137,29 @@ ADD column4 datatype
 ![image](https://user-images.githubusercontent.com/75883328/206931607-2eb650a4-845a-4819-b560-9fbee6f94210.png)
 
 <br>
+
+## Delete
+
+### 1) deleting a specific column
+
+```sql
+
+DELETE FROM table_name
+WHERE condition
+
+```
+
+![image](https://user-images.githubusercontent.com/75883328/206931966-5e425a74-8dad-4ef8-ae65-4c4445ce0b4c.png)
+
+<br>
+
+### 2) deleting a column
+
+```sql
+
+ALTER TABLE table_name
+DROP column4
+
+```
+
+![image](https://user-images.githubusercontent.com/75883328/206932030-3a9e8395-ae08-4a35-9df7-2ff94a8c5521.png)
