@@ -163,3 +163,9 @@ DROP column4
 ```
 
 ![image](https://user-images.githubusercontent.com/75883328/206932030-3a9e8395-ae08-4a35-9df7-2ff94a8c5521.png)
+
+#### EXTRA
+
+- table using foreign key
+
+![image](https://user-images.githubusercontent.com/75883328/206932572-5f1b6357-b538-49a8-9c73-adaee524bc27.png)
