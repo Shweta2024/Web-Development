@@ -127,7 +127,7 @@ SET column3 = value3
 
 ### 3) ADD a new column to the table
 
-``sql
+```sql
 
 ALTER TABLE table_name
 ADD column4 datatype
