@@ -137,3 +137,13 @@ db.collection.findOne({key:value})
 ### 2) deleteMany()
 
 - it is used to delete all the documents which matches the criteria.
+
+
+## Embedded Documents
+
+![image](https://user-images.githubusercontent.com/75883328/207037821-91989e66-fc89-439e-aa3e-84a76c3d38d2.png)
+
+
+
+![image](https://user-images.githubusercontent.com/75883328/207037751-2b3f4f37-6434-42c0-bd9f-2f1311f42036.png)
+
