@@ -6,6 +6,8 @@ Note :- in the ``` .bash_profile ```, write mongos instead of mongo.
 
 **C**reate **R**ead **U**pdate **D**elete
 
+CRUD operations :- [Read](https://www.mongodb.com/basics/crud)
+
 - starts mongosh shell
 
 ![image](https://user-images.githubusercontent.com/75883328/207002271-4a39d77b-b3be-4f53-8b6c-93577f3df476.png)
