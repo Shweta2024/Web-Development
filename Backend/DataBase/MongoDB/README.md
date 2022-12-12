@@ -102,3 +102,36 @@ db.collection.findOne({key:value})
 
 ![image](https://user-images.githubusercontent.com/75883328/207007858-461a5812-9a8a-4575-8985-be502b1c5d02.png)
 
+
+## Update
+
+### 1) updateOne()
+
+- it is used to update a single document of a collection.
+
+- it takes 02 parameters :- **update filter** & **update action**
+
+- “$set” key and provide the fields we want to update
+
+![image](https://user-images.githubusercontent.com/75883328/207032008-0f1d23b0-b85f-4300-808a-296f81b6f8e0.png)
+![image](https://user-images.githubusercontent.com/75883328/207032057-c9342bab-2865-46f5-9ccf-7863d18220b5.png)
+
+### 2) updateMany()
+
+- it updates all the field of the document which satifies the criteria.
+
+
+### 3) replaceOne()
+
+## Delete
+
+### 1) deleteOne()
+
+- it is used to delete one document from a collection.
+
+![image](https://user-images.githubusercontent.com/75883328/207034805-b06a7016-bebc-40ea-b531-650a507d18de.png)
+
+
+### 2) deleteMany()
+
+- it is used to delete all the documents which matches the criteria.
