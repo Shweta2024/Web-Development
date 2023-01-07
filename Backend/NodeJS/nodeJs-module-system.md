@@ -4,7 +4,7 @@ There are two types of module :-
 
 There are further three types of models that we need to require :- 
 
-1) Importing Node.js Core modules
+ ## 1) Importing Node.js Core modules
 
 // we don't need to install the core modules
 
@@ -52,7 +52,7 @@ b) data to be appended
 It simply adds the data to the end of the file 'text.txt'.
 
 
-2) Importing our own js file as node module
+## 2) Importing our own js file as node module
 
 ```js
 
@@ -65,7 +65,7 @@ module.exports = function add(num1,num2){
 we can import our one js file into another js by assigning ```module.exports``` the values/functions that we want to export to another files.
 
 
-3) Importing npm modules
+## 3) Importing npm modules
 
 
 npm modules can be find here :- [**LINK**](https://www.npmjs.com/)
@@ -82,7 +82,7 @@ const express = require('express');
 
 ```
 
-# Taking Command line input
+## Taking Command line input
 
 ```js
 
@@ -112,6 +112,6 @@ note :- we can use the yargs module to parse the command line arguments
 
 
 
-# Debugging node.js code
+## Debugging node.js code
 - using console.log()
 - using debugger : it shows all the steps followed/control flow
