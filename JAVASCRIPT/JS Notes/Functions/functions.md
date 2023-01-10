@@ -56,9 +56,9 @@ function display(){
 
 ```
 
-## <summary> First-class citizens </summary>
+## <summary> First-class citizens/ First class functions </summary>
 
-- We an treat functions like value.In js we can pass functions to other functions as argument, return function from any other function and also can store functions in variables. 
+- A first class function can be defined as those which can be treated as variables. In js we can pass functions to other functions as argument, return function from any other function and also can store functions in variables. This means that functions are just values of some other type.
 
 
 ```js
@@ -79,6 +79,51 @@ console.log(calculate(add,4,2));
 console.log(calculate(subtract,4,2));
 
 ```
+
+
+
+## <summary> Higher Order functions </summary>
+
+- A higher order functions can be defined as those which recieves a function as an argument or returns a function as output.
+
+**Example** :- In the below example calculate() is a higher-order-function, it is because it is receiving add() function as an argument.
+
+
+```js
+
+
+function add(num1,num2){
+    return num1+num2;
+}
+
+function calculate(operation,num1,num2){
+    return operation(num1,num2);
+}
+
+
+console.log(calculate(add,2,4));
+
+```
+
+
+**Example** :- In the below example the function greet(), returns another function greetMorning(), hence the function greet() is  higher-order function.
+
+
+```js
+
+function greetMorning(){
+    return console.log("good morning");
+}
+
+function greet(){
+    return greetMorning();
+}
+
+greet();
+
+
+```
+
 
 ## <summary> Anonymous Function </summary>
 
@@ -168,7 +213,10 @@ add(10,20);
 ```
 
 **Limitition of Arrow function**
-No binding of this keyword: It cannot be used as a method because of not having a binding of this keyword. Arrow function contains the lexical this instead of their own. The value of this will be based upon the scope in which they are defined. So the arrow function is defined in the window scope hence this will refer to the window object instead of the object in which the function has been written. There does not exist any property or method with ‘num’ hence undefined will be printed.
+No binding of this keyword: It cannot be used as a method because of not having a binding of this keyword. Arrow function contains the lexical this instead of their own. The value of this will be based upon the scope in which they are defined. So the arrow function is defined in the window scope hence this will refer to the window object instead of the object in which the function has been written.
+
+An arrow function doesn’t have its own this value. Instead, it uses the this value of the enclosing lexical scope. An arrow function also doesn’t have the arguments object.
+Avoid using the arrow function for event handlers, object methods, prototype methods, and functions that use the arguments object.
 
 ## <summary> JavaScript pass-by-value or pass-by-reference?</summary>
 
@@ -199,3 +247,49 @@ function fibonacci(num){
 console.log(fibonacci(7));
 
 ```
+
+
+## <summary> Pure Function </summary>
+
+- a function which returns the same output for a particular argument.It does not depend on any other state change or data change during the execution of the program.
+
+- below is the example of a pure function, as the result doesn't depends on any other factor except the price, which is passed as an argument.So for the same value of price we'll get the same result.
+
+
+**Example**
+
+```js 
+
+function calculateGST(price){
+    return price*0.05;
+}
+
+```
+
+- below is not an example of a pure function, because the value of price is dependent on tax, so if we'll change the value of tax then the result will also get changed.
+
+
+```js
+
+var tax = 20;
+function calculateGST(price){
+    return price*(tax/100)+price;
+}
+
+```
+
+- a function won't be called a pure function if it does :- 
+    
+    - Making a HTTP request
+    
+    - Mutating data
+    
+    - Printing to a screen or console
+    
+    - DOM Query/Manipulation
+    
+    - Math.random()
+    
+    - Getting the current time
+
+
