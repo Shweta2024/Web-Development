@@ -1,38 +1,38 @@
 <details> <summary> <h2> what is NodeJS? </h2> </summary>
 
-> NodeJS is an open-source and cross-platform runtime environment for JavaScript codes.
+``` NodeJS is an open-source and cross-platform runtime environment for JavaScript codes.```
 
-**open-source**: its source code is available publicly and we can contribute to it.
+- **open-source**: its source code is available publicly and we can contribute to it.
 
-**cross-platform**: it is independent of the platform i.e. Operating System. It can work on windows, linux etc.
+- **cross-platform**: it is independent of the platform i.e. Operating System. It can work on windows, linux etc.
 
-**runtime environment**: after writing a JS code, it won't perform any task untill & unless we have executed it. And to execute
+- **runtime environment**: after writing a JS code, it won't perform any task untill & unless we have executed it. And to execute
 a code we need runtime environment. So, NodeJS provides an environment to run our JS codes.
 
-> Node.js is built on Chrome’s V8 JavaScript engine
+``` Node.js is built on Chrome’s V8 JavaScript engine ```
 
-> Node.js uses an event-driven, asynchronous non-blocking I/O model
+``` Node.js uses an event-driven, asynchronous non-blocking I/O model ```
 
-**synchornous**: the execution takes place in a sequecnce i.e. one line gets executed only when the previous line has 
+- **synchornous**: the execution takes place in a sequecnce i.e. one line gets executed only when the previous line has 
 completed its execution.
 
-**asynchornous**: in which the execution doesn't occurs in the sequence in which the appear. The current line doesn't waits
+- **asynchornous**: in which the execution doesn't occurs in the sequence in which the appear. The current line doesn't waits
 for the previous line to complete its execution. It is very much useful in real-life senarios where at the same time we are
 performing many tasks without waiting for the previous task to gets completed.  
 
-**blocking**: when a particular task waits for its previous task to complete its execution as it can't start its execution
+- **blocking**: when a particular task waits for its previous task to complete its execution as it can't start its execution
 untill the previous one has completed, so this is called a blocking state and is more frequent in synchronous JS where execution
 occurs line by line.
 
 eg- readFileSync()
 
 
-**non-blocking**: a particular task starts its execution irrespective of the fact that its previous task has completed
+- **non-blocking**: a particular task starts its execution irrespective of the fact that its previous task has completed
 its execution or not. This occurs in case of asynchronous JS in which it continues other tasks while waiting for I/O process to complete.
 
 eg- readFile()
 
-**event-driven**
+- **event-driven**
 
 Events: events can be defined as any action performend by the user or the system like a click event or downloading a file.
 
@@ -44,8 +44,9 @@ Example:  we are having an h1 tag of black color and we want to change its color
 sets its innerHTML to blue.
 
 
-> Node.js operates on a single thread event loop
+``` Node.js operates on a single thread event loop ```
 
+</details> 
 
 <details> <summary> <h2> Browser Vs Node.js Runtime Environments </h2> </summary>
 
@@ -58,6 +59,7 @@ NodeJS allows us to interact with the file system and read or write files.
 - While using NodeJS runtime environment we have the ease to use any of its versions on the server-side. Whereas, in case
 of Browsers we don't know which version of browser our client will be using to access our application.
 
+</details> 
 
 <details> <summary> <h2> Window Vs Global  </h2> </summary>
 
@@ -67,6 +69,7 @@ In NodeJS runtime environment it is called "**global**"
 
 The window object contains the methods & properties that are present in the browser environment.
 
+</details> 
 
 <details> <summary> <h2> Why to use NodeJS?</h2> </summary>
 
@@ -84,5 +87,4 @@ lots of tutorials available to get started with NodeJS or to know any concepts o
 NodeJS can give an edge over rest candidates.
 
 
-
-
+</details> 
