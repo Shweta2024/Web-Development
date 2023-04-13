@@ -44,12 +44,11 @@ export default App;
  
  
  ```
- 
- ![image](https://user-images.githubusercontent.com/75883328/231675446-3d5344a3-e5b7-4f7d-ae88-f38fbb4a448c.png)
- 
+
  
  
- ### EXAMPLE
+ 
+ ### EXAMPLE : [link](https://codesandbox.io/s/usestate-hook-forked-fixm2t?file=/src/components/App.jsx)
  
  ```js
  
@@ -82,5 +81,4 @@ export default App;
  
  ```
  
- ![image](https://user-images.githubusercontent.com/75883328/231675948-50fe45d4-28fd-4ede-919b-87a47835bc0e.png)
 
