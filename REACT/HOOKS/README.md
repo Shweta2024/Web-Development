@@ -12,7 +12,8 @@ const state = useState(arg1,arg2)
 
 ```
 
- NOTE : Whenever we change the value of state that value gets re-rendered
+ NOTE : Whenever we change the value of state that value gets re-rendered. 
+ Dynamically updates the changes value
  
  
  #### EXAMPLE
