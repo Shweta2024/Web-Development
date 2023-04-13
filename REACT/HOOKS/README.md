@@ -1,6 +1,7 @@
 RULES :- 
 
 - We MUST use a hook inside a Functional Component.
+- We can't use HOOKS in class component.
 
 ```js
 
