@@ -81,4 +81,4 @@ export default App;
  
  ```
  
-
+Timer :- [link](https://codesandbox.io/s/usestate-hook-practice-forked-ipy4gf?file=/src/components/App.jsx)
