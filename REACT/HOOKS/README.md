@@ -82,6 +82,8 @@ export default App;
  
  ```
  
+ increment/decrement using class component :- [link](https://codesandbox.io/s/react-forms-completed-forked-sgbo5b?file=/src/index.js)
+ 
 Timer :- [link](https://codesandbox.io/s/usestate-hook-practice-forked-ipy4gf?file=/src/components/App.jsx)
 
 Button color changer :- [link](https://codesandbox.io/s/event-handling-in-react-forked-gx2wgy?file=/src/components/App.jsx)
