@@ -16,7 +16,7 @@ Therefore we use node.js as it allows us to access the computer files and also t
 - **REPL(Read Evaluaton Print Loops)** :- its like the google console,like google console it allows us to execute chucks of codes.We can write a line of code and can hit enter to execute it and can write another line of code after that and again hit enter to execute it.
 
 - **npm - Node Package Manager** 
-npm is two things: first, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that helps in package installation, version management, and dependency management.
+npm is two things: first, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that helps in** package installation, version management, and dependency management.**
 
 - **Express** :- its a framework of node.
 
