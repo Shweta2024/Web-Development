@@ -22,3 +22,6 @@ Read : https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
   - 500 - Internal Server Error
   - 502 - Bad Gateway
 
+![image](https://github.com/Shweta2024/Web-Development/assets/75883328/c5ef8bb2-05fb-4ba0-84e5-52a71fa43ab8)
+
+
