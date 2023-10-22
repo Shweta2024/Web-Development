@@ -48,3 +48,11 @@
 <details> <summary><h2> APIs </h2></summary>
 
 </details>
+
+<details> <summary><h2> Authentication </h2></summary>
+  
+- [different ways to authenticate user](https://github.com/Shweta2024/Secrets-App/blob/main/README.md)
+- Authentication VS Authorization
+-  Passport
+-  JWT Authentication 
+-  Google Auth
