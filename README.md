@@ -35,6 +35,7 @@
 - Advantages of NoSQL
 - Disadvantages of NoSQL
 - When to use what : SQL & NoSQL?
+- [Mongoose Query Operators](https://github.com/Shweta2024/Web-Development/blob/main/Backend/DataBase/mongoose-query-operators.md)
 
 </details>
 
