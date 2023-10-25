@@ -25,7 +25,6 @@
 - Node Module System
 - Event Loop, Call Stack & Callback Queue
 - How Synchronous & Asynchronous JS works?
-- [Middleware](https://selvaganesh93.medium.com/how-node-js-middleware-works-d8e02a936113)
 
 </details>
 
@@ -41,6 +40,9 @@
 
 
 <details> <summary><h2> Express </h2></summary>
+
+- Routing
+- [Middleware](https://github.com/Shweta2024/express-middleware)
 
 </details>
 
